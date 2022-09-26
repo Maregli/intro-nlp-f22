@@ -44,7 +44,6 @@ def test_backprop(math_problems):
         ## Step 1 ________________
         ## the math problem is parsed into infix notation
         infix_str, in_vars = p.parse(math_problem["problem"], in_vars = math_problem["in_vars"])
-
         ## Step 2 ________________
         ## take infix_str and in_vars and build a computation graph
         ## it is not required that parallel executions are parallelized
